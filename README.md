@@ -1,12 +1,12 @@
 
 ![Logo](./images/logo.png)
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/m0rniac/snarf/blob/main/LICENSE)
 
 
 # S N A R F
 
-A minimalist but efficient Realist Text to Speech.
+A minimalist but efficient realist Text to Speech.
 
 
 ### It's recommended to use a virtual enviorment:
