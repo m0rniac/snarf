@@ -56,9 +56,6 @@ Install dependencies with:
   python main.py
   python3 main.py
 ```
-## Screenshots:
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 
 ## API Reference
