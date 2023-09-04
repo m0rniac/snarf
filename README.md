@@ -1,63 +1,65 @@
 
-![Logo](./images/logo.png)
+# S N A R F (0.0.2)
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/m0rniac/snarf/blob/main/LICENSE)
-
-
-# S N A R F
-
-A minimalist but efficient realist Text to Speech.
+A realist Text to Speech software with minimalist GUI.
 
 
-### It's recommended to use a virtual enviorment:
+## Installation of VENV (Recommended)
 
-- Installation of venv **(Windows)**:
+Install virtual environment on Linux (Debian based):
 
 ```bash
-  pip install virtualenv
+sudo apt install python3-venv
 ```
+```bash
+pip3 install virtualenv
+``` 
 
-- Installation of venv **(Linux)**:
+Install virtual environment on Microsoft Windows:
 
 ```bash
-  pip3 install virtualenv
+pip install virtualenv
 ```
+## Cloning repository including VENV
 
-- Creation  of venv **(Windows)**:
-
+- Linux (Debian based):
 ```bash
-  python -m venv "snarf"
+python3 -m venv snarf && source snarf/bin/activate && git clone https//github.com/m0rniac/snarf temp_folder && mv temp_folder/* . && rm -r temp_folder && deactivate
 ```
-- Creation  of venv **(Linux)**:
-
 ```bash
-  python3 -m venv "snarf"
+cd snarf/
 ```
-#### Activation of VENV:
-**Move the source code inside venv** and run:
+```bash
+source bin/activate
+```
+```bash
+pip3 install -r requirements.txt
+```
+
+
+- Microsoft Windows:
+```bash
+python -m venv snarf && snarf\Scripts\activate.bat && git clone https://github.com/m0rniac/snarf temp_folder && move temp_folder\* . && rmdir /s /q temp_folder && deactivate
+```
+```bash
+cd snarf
+```
+```bash
+.\Scripts\activate
+```
+```bash
+pip install -r requirements.txt
+```
+
+## Run:
+- Linux (Debian based):
+```bash
+python3 main.py
+```
 - Windows:
 ```bash
-  .\Scripts\activate
+python main.py
 ```
-- Linux:
-```bash
-  source bin/activate
-```
-## Installation
-
-Install dependencies with:
-
-```bash
-  pip install -r requirements.txt
-  pip3 install -r requirements.txt
-```
-### Run:
-```bash
-  python main.py
-  python3 main.py
-```
-
-
 ## API Reference
 
 #### from Microsoft Azure:
@@ -69,12 +71,9 @@ Install dependencies with:
 | `api_key` | `string` | *Required* |
 
 
+## Feedback
+If you have any feedback, please reach out to me at:
 
-## License:
+[![instagram](https://img.shields.io/badge/instagram-0A66C2?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/christcastr/)
 
-[MIT License](https://choosealicense.com/licenses/mit/)
-
-
-#### 🔗 Sponsoring:
 [![portfolio](https://img.shields.io/badge/buy_me_a_coffee-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://www.paypal.com/paypalme/christcastr/)
-
